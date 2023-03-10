@@ -53,6 +53,6 @@ function menu() {
       default:
         break;
     }
-  } while (luachon == 1 || luachon == 2 || luachon == 3 || luachon == 4);
+  } while (luachon == 1 || luachon == 2 || luachon == 3);
 }
 menu();
