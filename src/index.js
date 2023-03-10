@@ -50,8 +50,6 @@ function menu() {
       case 4:
         console.log("Cảm ơn đã sử dụng từ điển!");
         break;
-      default:
-        break;
     }
   } while (luachon == 1 || luachon == 2 || luachon == 3);
 }
