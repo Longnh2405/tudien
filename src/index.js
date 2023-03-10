@@ -22,7 +22,11 @@ function dich() {
   let tim = tudien.find((value) => {
     return value.english == tu_dich;
   });
-  console.log(tim.vietnamese);
+  if (tim) {
+    console.log(tim.vietnamese);
+  } else {
+    console.log("Không tìm thấy!");
+  }
 }
 
 function menu() {
@@ -44,7 +48,7 @@ function menu() {
         dich();
         break;
       case 4:
-        console.log("Bạn đã chọn thoát!");
+        console.log("Cảm ơn đã sử dụng từ điển!");
         break;
       default:
         break;
